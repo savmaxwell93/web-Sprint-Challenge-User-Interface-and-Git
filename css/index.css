@@ -162,7 +162,6 @@ header nav a{
 .links{
     display: flex;
     justify-content: space-evenly;
-    ;
 }
 .home-bg-img{
     padding-bottom: 2%;
@@ -200,4 +199,46 @@ header nav a{
     background: dodgerblue;
 }
 
-/*About Styles*/
+/*About Section Styles*/
+.about{
+    border-bottom: 1px dashed black;
+    margin-bottom: 4%;
+    margin-top: 1%;
+    padding: 2% 2%;
+}
+/*Learn Section Styles*/
+.learn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info{
+    width: 50%;
+    border-collapse: separate;
+    border-bottom: 1px dashed black;
+    margin-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5%;
+}
+.info .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 5%;
+}
+.learn button{
+    width:35%;
+    padding:3% 5%;
+    margin-top: 5%;
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/*Together Section Styles*/
+.together{
+    margin-bottom: 4%;
+    margin-top: 1%;
+    padding: 2% 2%;
+}
