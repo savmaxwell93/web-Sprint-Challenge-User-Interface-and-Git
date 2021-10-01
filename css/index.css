@@ -154,6 +154,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 2%;
+    margin-bottom: 3%;
 }
 header nav a{
     color: black;
@@ -165,6 +166,17 @@ header nav a{
 }
 .home-bg-img{
     padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.about-bg-img{
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 /*Changing box colors*/
 
