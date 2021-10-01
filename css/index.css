@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +144,60 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*header section*/
+header{
+    width: 800px;
+    margin:0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    ;
+}
+.home-bg-img{
+    padding-bottom: 2%;
+}
+/*Changing box colors*/
+
+.middle-content .boxes .b-one{
+    background:teal;
+}
+.middle-content .boxes .b-two{
+    background:gold;
+}
+.middle-content .boxes .b-three{
+    background:cadetblue;
+}
+.middle-content .boxes .b-four{
+    background: coral;
+}
+.middle-content .boxes .b-five{
+    background: crimson;
+}
+.middle-content .boxes .b-six{
+    background: forestgreen;
+}
+.middle-content .boxes .b-seven{
+    background: darkorchid;
+}
+.middle-content .boxes .b-eight{
+    background: hotpink;
+}
+.middle-content .boxes .b-nine{
+    background: indigo;
+}
+.middle-content .boxes .b-ten{
+    background: dodgerblue;
+}
+
+/*About Styles*/
