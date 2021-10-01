@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,119 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*header section*/
+header{
+    width: 835px;
+    margin:0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+.links .logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.links a{
+    display: flex;
+    justify-content: space-evenly;
+}
+.home-bg-img{
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.about-bg-img{
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+/*Changing box colors*/
+
+.middle-content .boxes .b-one{
+    background:teal;
+}
+.middle-content .boxes .b-two{
+    background:gold;
+}
+.middle-content .boxes .b-three{
+    background:cadetblue;
+}
+.middle-content .boxes .b-four{
+    background: coral;
+}
+.middle-content .boxes .b-five{
+    background: crimson;
+}
+.middle-content .boxes .b-six{
+    background: forestgreen;
+}
+.middle-content .boxes .b-seven{
+    background: darkorchid;
+}
+.middle-content .boxes .b-eight{
+    background: hotpink;
+}
+.middle-content .boxes .b-nine{
+    background: indigo;
+}
+.middle-content .boxes .b-ten{
+    background: dodgerblue;
+}
+
+/*About Section Styles*/
+.about{
+    border-bottom: 1px dashed black;
+    margin-bottom: 4%;
+    margin-top: 1%;
+    padding: 2% 2%;
+}
+/*Learn Section Styles*/
+.learn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info{
+    width: 50%;
+    border-collapse: separate;
+    border-bottom: 1px dashed black;
+    margin-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5%;
+}
+.info .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 5%;
+}
+.learn button{
+    width:35%;
+    padding:3% 5%;
+    margin-top: 5%;
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/*Together Section Styles*/
+.together{
+    margin-bottom: 4%;
+    margin-top: 1%;
+    padding: 2% 2%;
 }

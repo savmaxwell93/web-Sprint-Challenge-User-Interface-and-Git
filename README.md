@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Writing semantic HTML is basically giving meaning to your page's backbone. It's defining each element using the tag that is most meaningful to that content. Is it an address? Phone number? Make sure that the tags match so that the people who read your code after you can understand it at a glance.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Block will always begin a new line, extend left to right, and take up the full width.
+    Inline will not start a new line and only takes up the necessary space.
+
+    Block elements respect left, right, top, bottom margins and padding.
+    Inline elements only respect left, right margins and padding.
 
 3. What are the 4 areas of the box model?
 
+    The content edge, padding edge, border edge, and margin edge.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+    Git allows the team to see every push or pull request each member makes to a program. This allows them to go back to see previous versions, or discuss questions that may arise while working on sections without making changes to the master branch first. Git also provides an isolated environment for every change made to a codebase, which ensures the main branch is always the best quality code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
